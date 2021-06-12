@@ -34,6 +34,7 @@ To get started with the program, you'll need a text editor, a command-line inter
   * Common commands overview
 
 ## Git
+  *[Adding SSH key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) 
   *[Slides](https://drive.google.com/file/d/17uGFXR55FTC2o7orXpB1d5q1DgLTIf3D/view?usp=sharing)
   * What is git and version control?
   * Creating a new repository
