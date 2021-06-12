@@ -12,7 +12,7 @@ After this lesson, you should have an understanding of:
   * [How to collaborate on projects with GitHub](#github)
 
 ## OS Overview
-  * Slides (https://drive.google.com/file/d/1FC-4ELw_M_dptujUxr0b7ttQJ06CoH5B/view?usp=sharing)
+  * [Slides](https://drive.google.com/file/d/1FC-4ELw_M_dptujUxr0b7ttQJ06CoH5B/view?usp=sharing)
   * macOS or Linux are preferred for this course because they have full-featured UNIX-style command-line interfaces
     * UNIX-based operating systems are preferred for web development because we want our local development environment to be as similar to our production environment as possible and most of the web servers on the Internet are running Linux.
   * **Getting to know your keyboard shortcuts will help you be more productive**
