@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.bx-1 {
+  background-color: tomato;
+  color: black;
+  padding: 20px;
+  margin: 10px;
+  border: 20px solid black;
+}
+
+.bx-2 {
+    background-color: tomato;
+  color: black;
+  padding: 20px;
+  margin: 20px;
+  border: 20px solid black;
+}
