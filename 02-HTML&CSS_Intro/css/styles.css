@@ -1,0 +1,50 @@
+p {
+    color: brown;
+}
+
+li {
+    color: darkgrey;
+}
+
+.myNewClass{
+    font-size: xx-large;
+}
+
+#highlight{
+    text-decoration: underline;
+    background-color: darkblue;
+}
+
+
+li {
+    color: lightpink;
+    background-color: lightskyblue;
+}
+
+#newClass p {
+   font-size: smaller; 
+}
+
+ul > li{
+    background-color: limegreen;
+}
+
+img + a {
+    text-decoration: none;
+}
+
+h1 + div{
+    border:2px solid black;
+}
+
+a:hover{
+    color: lawngreen;
+}
+
+a:visited {
+    color: yellow;
+}
+
+li:nth-child(2n){
+    background-color: turquoise;
+}
