@@ -1,0 +1,12 @@
+SQL - structured Query Language
+
+Windows users 
+
+-- check the status of psql 
+sudo service postgresql status
+
+-- if it is not online , start psql by runnng 
+sudo service postgresql start
+
+--once it is up, try 
+sudo -u postgres psql
