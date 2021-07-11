@@ -10,7 +10,7 @@ During this lecture, we'll cover how the web works and the different parts of th
 
 ## Intro
 
-* Recap of testing
+
 * Intro of Requests and Responses
 
 ## Request-Response Cycle
