@@ -1,4 +1,5 @@
 require 'sinatra'
+# routes = request method + resource path
 
 todos = ["Go for a walk", "Drink Coffee", "Work", "Sleep"]
 
