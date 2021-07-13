@@ -1,0 +1,7 @@
+<h1>Welcome to Cook book...</h1>
+<ul>
+  <% @recipes.each do |r| %>
+    <li><%= r.name %> <a href="/recipeUpdate/<%= r.id %>"> Update</a>, <a href="/deleteRecipe/<%= r.id %>"> Delete</a></li>
+  <% end %>
+</ul>
+<div><a href="/createRecipeForm"> Create new Recipe</a></div>
