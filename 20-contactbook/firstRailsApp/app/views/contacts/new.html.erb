@@ -1,0 +1,20 @@
+<h1>You can create a contact</h1>
+<%= form_for (@contact) do |f| %>
+  <div>
+    <%= f.label :first_name %>
+    <%= f.text_field :fname %>
+  </div>
+  <div>
+    <%= f.label :last_name %>
+    <%= f.text_field :lname %>
+  </div>
+  <div>
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+  </div>
+  <div>
+    <%= f.label :notes %>
+    <%= f.text_area :notes %>
+  </div>
+  <%= f.submit %>
+<%end%>

@@ -1,0 +1,11 @@
+<h1>Helloooooo </h1>
+<ul>
+  <% @contacts.each do |c| %>
+    <li> <%= c.fname %> | <%= link_to "Delete this contact", contact_path(c) , method: :delete, data: {confirm: "Are you sure ?? "} %> | 
+      <%= link_to "Edit", edit_contact_path(c) %>
+    </li>
+  <% end %>
+</ul>
+
+
+<%= link_to "Add a contact", new_contact_path %>
