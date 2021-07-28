@@ -5,3 +5,25 @@
   <%= image_tag @picture.url %>
 
 </section>
+
+<div>
+<h2>Comments</h2>
+<ul>
+   <% @comments.each do |comment| %>
+    <li><p><%= comment.name %> said <%= comment.message %> </p>
+    <p> on <%= comment.created_at %></p>
+    
+    </li>
+    <%end %>
+</ul>
+</div>
+
+<h2>Tags</h2>
+<ul>
+   <% @tags.each do |tag| %>
+    <li><p><%= tag.name %> </p>
+    
+    </li>
+    <%end %>
+</ul>
+</div>
