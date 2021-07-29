@@ -12,8 +12,11 @@
 
 ActiveRecord::Schema.define(version: 2021_07_25_184434) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "albums", force: :cascade do |t|
-    t.integer "artist_id"
+    t.bigint "artist_id"
     t.string "title"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -45,16 +48,16 @@ ActiveRecord::Schema.define(version: 2021_07_25_184434) do
   end
 
   create_table "playlists_tracks", force: :cascade do |t|
-    t.integer "playlist_id"
-    t.integer "track_id"
+    t.bigint "playlist_id"
+    t.bigint "track_id"
     t.index ["playlist_id"], name: "index_playlists_tracks_on_playlist_id"
     t.index ["track_id"], name: "index_playlists_tracks_on_track_id"
   end
 
   create_table "tracks", force: :cascade do |t|
-    t.integer "album_id"
-    t.integer "genre_id"
-    t.integer "media_type_id"
+    t.bigint "album_id"
+    t.bigint "genre_id"
+    t.bigint "media_type_id"
     t.string "name"
     t.string "composer"
     t.integer "milliseconds"
