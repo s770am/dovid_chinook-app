@@ -5,23 +5,6 @@ Chinook is a Rails application destined to help you practice various ActiveRecor
 
 Chinook doesn't currently have a user interface, but feel free to add one!
 
-## Requirements
-
-### PostgreSQL
-Chinook uses a PostgreSQL database. You'll need to have it installed and running.
-
-#### OS X Users
-
-[Mac OS X packages](http://www.postgresql.org/download/macosx/)
-
-Installing PostgreSQL with Homebrew or with the Postgres.app are recommended.
-
-If you're on a Mac and installed the Postgres.app, you might need to add the psql command to bash by inserting the following line into your .bash_profile.
-
-```bash
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
-```
-
 
 
 ## Getting started
@@ -37,7 +20,7 @@ There's *a lot of data* to load, so instead of using seeds, we're going to manua
 ```bash
 psql chinook_development < chinook.sql
 ```
-
+## Start here 
 Once you're done loading your data, it's time to play! Fire up your Rails Console!
 ```bash
 rails console

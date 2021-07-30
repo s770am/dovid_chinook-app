@@ -1,0 +1,14 @@
+
+
+<h1>this the show page</h1>
+<%= link_to "home", root_path %>
+<h2>there are <%= @tracks.count %> that equal your search</h2>
+
+<ul>
+
+<% @tracks.each do |t| %>
+    <li><%= t.name %></li>
+<% end %>
+
+
+</ul>

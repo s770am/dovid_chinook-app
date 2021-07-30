@@ -1,0 +1,12 @@
+<h1>welcome to the home page</h1>
+
+<h2>you have <%= @tracks.count %> number of tracks</h2>
+
+
+<%= form_tag(search_page_path, :method => "get") do %>   
+    <%= search_field_tag :search, params[:search], placeholder: "starts with" %>   
+      <%= button_tag "search", :name => nil%>  
+
+<% end %>
+  
+  
